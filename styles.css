@@ -1,0 +1,58 @@
+body {
+    background: url('https://iili.io/2pfCzSp.jpg') no-repeat center center/cover;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.upload-box, .result-box {
+    background: rgba(255, 255, 255, 0.85); /* Soft white with transparency */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    text-align: center;
+    backdrop-filter: blur(10px); /* Light blur for a soft effect */
+}
+
+h2 {
+    color: #5a6270; /* Muted dark shade for contrast */
+    font-weight: bold;
+}
+
+.result-text {
+    font-size: 18px;
+    color: #444;
+}
+
+.text-info {
+    font-weight: bold;
+    color: #4ea69e; /* Soft pastel green for highlights */
+}
+
+button, .btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    background: #377888; /* Soft pastel pink */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover, .btn:hover {
+    background: #0044a4; /* Slightly darker pink on hover */
+    opacity: 0.9;
+}
